@@ -69,6 +69,7 @@
     <Compile Include="Interfaces\IWriteOnlyRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\EntityFrameworkRepository.cs" />
+    <Compile Include="SmsContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Mapping\" />
