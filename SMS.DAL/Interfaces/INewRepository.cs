@@ -1,6 +1,6 @@
 ﻿namespace SMS.DAL.Interfaces
 {
-    public class INewRepository
+    public interface INewRepository
     {
         
     }
