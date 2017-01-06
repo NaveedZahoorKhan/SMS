@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Presentation", "SMS.Pre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.DAL", "SMS.DAL\SMS.DAL.csproj", "{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Services", "SMS.Services\SMS.Services.csproj", "{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Release|x86.ActiveCfg = Release|Any CPU
 		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Release|x86.Build.0 = Release|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Debug|x86.Build.0 = Debug|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Release|x86.ActiveCfg = Release|Any CPU
+		{BA8D05BF-EA9F-456E-8196-3F27FCCDC707}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
