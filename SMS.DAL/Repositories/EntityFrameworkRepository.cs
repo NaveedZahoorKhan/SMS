@@ -9,7 +9,7 @@ namespace SMS.DAL.Repositories
 {
     public abstract class EntityFrameworkRepository<TEntity, TContext>
         : IRepository<TEntity>, IDisposable
-        where TEntity : class
+        where TEntity : class, IEntity
         where TContext : class, IContext
     {
         protected bool _disposed;
