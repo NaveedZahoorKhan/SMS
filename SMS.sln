@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.Presentation", "SMS.Presentation\SMS.Presentation.csproj", "{E985DE5A-3038-4949-9FEF-CCC896D90BCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMS.DAL", "SMS.DAL\SMS.DAL.csproj", "{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Debug|x86.ActiveCfg = Debug|x86
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Debug|x86.Build.0 = Debug|x86
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Release|x86.ActiveCfg = Release|x86
+		{E985DE5A-3038-4949-9FEF-CCC896D90BCE}.Release|x86.Build.0 = Release|x86
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Debug|x86.Build.0 = Debug|Any CPU
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Release|x86.ActiveCfg = Release|Any CPU
+		{CD4B1E79-FF27-4EA2-A3D1-301D5ED29ED9}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
