@@ -1,6 +1,6 @@
 ﻿namespace SMS.DAL.Interfaces
 {
-    public class IClassRepository
+    public interface IClassRepository : IEntity
     {
         
     }

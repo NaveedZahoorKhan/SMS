@@ -1,6 +1,6 @@
 ﻿namespace SMS.DAL.Interfaces
 {
-    public interface IStudentRepository
+    public interface IStudentRepository : IEntity
     {
         
     }
