@@ -14,7 +14,7 @@ namespace SMS.Model.Models
 
         #region Foreign Key
         public virtual User User { get; set; }
-        public 
+        
 
         #endregion
 
