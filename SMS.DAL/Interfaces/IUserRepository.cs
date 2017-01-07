@@ -1,6 +1,6 @@
 ﻿namespace SMS.DAL.Interfaces
 {
-    public interface IUserRepository
+    public interface IUserRepository : IEntity, INewsRepository
     {
         
     }

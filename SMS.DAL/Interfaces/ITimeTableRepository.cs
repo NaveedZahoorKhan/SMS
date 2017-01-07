@@ -1,6 +1,6 @@
 ﻿namespace SMS.DAL.Interfaces
 {
-    public class ITimeTableRepository
+    public interface ITimeTableRepository : IEntity
     {
         
     }
