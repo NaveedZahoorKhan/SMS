@@ -7,11 +7,13 @@ namespace SMS.Model.Models
     {
         [Key, ForeignKey("User")]
         public int StudentId { get; set; }
+        [ForeignKey("Class")]
+        public int ClassId { get; set; }
 
         #region Foreign Keys
 
         public virtual User User { get; set; }
-
+        public virtual Class Class { get; set; }
         #endregion
     }
 }

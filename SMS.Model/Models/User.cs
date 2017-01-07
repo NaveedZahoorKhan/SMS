@@ -1,4 +1,5 @@
-﻿using SMS.Common.Enums;
+﻿using System.Collections.Generic;
+using SMS.Common.Enums;
 
 namespace SMS.Model.Models
 {
@@ -21,6 +22,13 @@ namespace SMS.Model.Models
         public virtual Student Student { get; set; }
 
         public virtual Teacher Teacher { get; set; }
+        #endregion
+
+
+        #region Entity (Has Many)
+
+        public virtual List<News> News { get; set; }
+
         #endregion
     }
 }

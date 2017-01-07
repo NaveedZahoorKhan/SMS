@@ -4,6 +4,10 @@ namespace SMS.Model.Models
 {
     public class Course : ModelDefault
     {
-        private TimeSpan TimeSpan;
+
+        public TimeSpan TimeSpan { get; set; }
+
+        public int ClassId { get; set; }
+        public virtual Class Class { get; set; }
     }
 }
