@@ -28,6 +28,7 @@ namespace SMS.Model.Models
         #region Entity (Has Many)
 
         public virtual List<News> News { get; set; }
+        public virtual List<Announcement> Announcements { get; set; }
 
         #endregion
     }

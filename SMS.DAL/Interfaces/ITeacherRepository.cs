@@ -1,6 +1,9 @@
-﻿namespace SMS.DAL.Interfaces
+﻿using SMS.DAL.Repositories;
+using SMS.Model.Models;
+
+namespace SMS.DAL.Interfaces
 {
-    public interface ITeacherRepository : IEntity
+    public interface ITeacherRepository : IRepository<Teacher>
     {
         
     }

@@ -1,10 +1,12 @@
-﻿using SMS.DAL.Interfaces;
+﻿using SMS.DAL.Helpers;
+using SMS.DAL.Interfaces;
+using SMS.Model.Models;
 
 namespace SMS.DAL.Repositories
 {
-    public class AnnouncementRepository : EntityFrameworkRepository<IAnnouncementRepository, SmsContext>
+    public class AnnouncementRepository : RepositoryBase<Announcement>, IAnnouncementRepository
     {
-        public AnnouncementRepository(IUnitOfWork uow) : base(uow)
+        public AnnouncementRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
     }

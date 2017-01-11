@@ -1,10 +1,12 @@
-﻿using SMS.DAL.Interfaces;
+﻿using SMS.DAL.Helpers;
+using SMS.DAL.Interfaces;
+using SMS.Model.Models;
 
 namespace SMS.DAL.Repositories
 {
-    public class UserRepository : EntityFrameworkRepository<IUserRepository, SmsContext>
+    public class UserRepository : RepositoryBase<User>, IUserRepository
     {
-        public UserRepository(IUnitOfWork uow) : base(uow)
+        public UserRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
     }

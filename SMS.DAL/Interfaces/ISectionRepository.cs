@@ -2,7 +2,7 @@
 
 namespace SMS.DAL.Interfaces
 {
-    public interface ICourseRepository: IRepository<Course>
+    public interface ISectionRepository : IRepository<Section>
     {
         
     }

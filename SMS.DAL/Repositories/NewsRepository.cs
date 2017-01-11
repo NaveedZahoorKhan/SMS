@@ -1,10 +1,13 @@
-﻿using SMS.DAL.Interfaces;
+﻿using SMS.DAL.Helpers;
+using SMS.DAL.Interfaces;
+using SMS.Model.Models;
 
 namespace SMS.DAL.Repositories
 {
-    public class NewsRepository : EntityFrameworkRepository<INewsRepository, SmsContext>
+    public class NewsRepository : RepositoryBase<News>, INewsRepository
     {
-        public NewsRepository(IUnitOfWork uow) : base(uow)
+        
+        public NewsRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
     }

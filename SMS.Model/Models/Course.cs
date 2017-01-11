@@ -9,5 +9,12 @@ namespace SMS.Model.Models
 
         public int ClassId { get; set; }
         public virtual Class Class { get; set; }
+
+
+        #region Belongs To
+
+        public TimeTable TimeTable { get; set; }
+
+        #endregion
     }
 }

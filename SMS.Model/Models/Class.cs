@@ -9,8 +9,10 @@ namespace SMS.Model.Models
         #region Has Many
 
         public List<Course> Courses { get; set; }
-        public List<Student> Students { get; set; }
+        
+        
 
+        public List<Section> Sections { get; set; }
         #endregion
     }
 }

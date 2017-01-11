@@ -1,10 +1,12 @@
-﻿using SMS.DAL.Interfaces;
+﻿using SMS.DAL.Helpers;
+using SMS.DAL.Interfaces;
+using SMS.Model.Models;
 
 namespace SMS.DAL.Repositories
 {
-    public class StudentRepository : EntityFrameworkRepository<IStudentRepository, SmsContext>
+    public class StudentRepository : RepositoryBase<Student>, IStudentRepository
     {
-        public StudentRepository(IUnitOfWork uow) : base(uow)
+        public StudentRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
     }
